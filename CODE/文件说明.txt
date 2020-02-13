@@ -1,0 +1,9 @@
+-----------baseline实验的代码--------
+load_dataset.py：加载数据
+main_modify_label.py：训练模型
+test_demo.py：测试模型
+
+-----------数据处理的代码------------
+statistic.py：统计训练集和测试集的相关数据
+sgcls_pkl2txt：获取faster-rcnn提取的box特征
+generate_gtbox.py：将模型预测结果转换成motif所需格式
